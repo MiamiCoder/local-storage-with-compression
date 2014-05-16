@@ -1,0 +1,25 @@
+﻿var app = app || {};
+app.model = app.model || {};
+app.model.BuildingInspectionRequest = function () {
+    this.Id = null;
+    this.DateCreated = null;
+    this.DateLastModified = null;
+    this.DateScheduled = null;
+    this.WeatherAndTemperature = null;
+    this.CustomerName = null;
+    this.CustomerEmailAddress = null;
+    this.CustomerHomePhone = null;
+    this.CustomerWorkPhone = null;
+    this.CustomerCellPhone = null;
+    this.PropertyAddress = null;
+    this.PropertyCity = null;
+    this.PropertyState = null;
+    this.PropertyZipCode = null;
+    this.PropertyIsOccupied = null;
+    this.StatusId = null;
+    this.InspectionType = null;
+    this.BuildingType = null;
+    this.CustomerSignature = null;
+    this.DateSignedByCustomer = null;
+    this.OperationalNotes = null;
+};

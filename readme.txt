@@ -1,0 +1,1 @@
+﻿An example of how to use compression to reduce a web app's database size in localstorage.
